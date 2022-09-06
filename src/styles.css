@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.App {
+  font-family: "Jost", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://fondosmil.com/fondo/2255.jpg");
+  background-size: cover;
+}
+
+.container {
+  color: #f7cb45;
+  width: 350px;
+  background: rgba(218, 137, 34, 0.11);
+  border-radius: 10px;
+  padding: 30px 10px 10px 10px;
+  backdrop-filter: blur(10.5px);
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.51);
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description-weather {
+  width: 160px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.before-title-description {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+span {
+  font-weight: 700;
+}
+
+.icon-big {
+  width: 150px;
+}
